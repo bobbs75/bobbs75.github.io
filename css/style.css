@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/img/Smoke-BG.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+i {
+    font-size: 60px;
+    color: aliceblue;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+p {
+    line-height: 35px;
+    color: aliceblue;
+}
+
+.etages .etage .left .description {
+    line-height: 35px;
+    color:aliceblue ;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color: black ;
+    margin-bottom: 0px;
+    height: 86px;
+}
+
+nav .onglets {
+    margin-top: 35px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #ffbd4a;
+    margin-right: 10px;
+}
+h1{
+    color:#ffbd4a;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color:#ffbd4a;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.etages {
+    margin-top: 0px;
+}
+
+.etages .etage {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.etages .etage .right img {
+    max-width: 35vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+
+.etages .etage .left {
+    max-width: 35vw;
+    color: #202020;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.etages .etage .left2 img {
+    max-width: 35vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 25px;
+}
+
+.etages .etage .right2 {
+    max-width: 35vw;
+    color: aliceblue;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+
+.etages .etage .payment .col-icone {
+    width: 5vw;
+    display: table-cell;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.etages .etage .payment .detail {
+    width: 20vw;
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.etages .etage .payment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size: 16px;
+    margin-bottom: 0px;
+   }
+    /*float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}*/
+
+/*
+
+.etages .etage .returns .col-icone {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.etages .etage .returns .detail {
+    display: table-cell;
+    vertical-align: top;
+    width: 10000px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.etages .etage .returns {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.etages .etage .payment .col-icone .icone-shipping {
+    color: aliceblue;
+    font-size: 42px;
+    padding-right: 14px;
+}
+
+.etages .etage .shipping .col-icone {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.etages .etage .shipping .detail {
+    display: table-cell;
+    vertical-align: top;
+    width: 10000px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.etages .etage .shipping {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}*/
+
+#part1 {
+    /*background-color: whitesmoke;
+}*/
+
+#part2 {
+    /*background-color: #202020;
+    
+}*/
+
+#part3 {
+    
+}
