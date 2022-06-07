@@ -6,7 +6,7 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-image: url("/img/Smoke-BG.png");
+    background-image: url("https://bobbs75.github.io/img/Smoke-BG.png");
     background-attachment: fixed;
     background-size: cover;
 }
