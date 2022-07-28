@@ -10,8 +10,7 @@
     animation: glisse 20s infinite;
 }
 
-.slide {
-    width: 100%;
+.slide {    
     max-width: 500px;
 }
 
