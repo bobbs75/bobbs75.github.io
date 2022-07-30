@@ -152,12 +152,13 @@ h2 {
     color: #202020;
     font-size: clamp(1rem, 1rem + 10vw, 1rem);
     margin-right: 25px;
+    padding-top: 30px;
 }
 
 .etages .etage .left2 img {
     max-width: 35vw;
     min-width: 400px;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
     padding-right: 30px;
     margin-right: 25px;
@@ -207,8 +208,8 @@ h2 {
     justify-content: center;
     font-size: clamp(1rem, 1rem + 10vw, 1rem);
     margin-bottom: 40px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: auto;
     align-items: center;
     position: relative;
