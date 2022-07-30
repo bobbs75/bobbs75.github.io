@@ -169,6 +169,7 @@ h2 {
     color: aliceblue;
     font-size: clamp(1rem, 1rem + 10vw, 1rem);
     margin-left: 25px;
+    margin-top: 40px;
 }
 
 
