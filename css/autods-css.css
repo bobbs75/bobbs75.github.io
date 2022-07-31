@@ -235,7 +235,7 @@ h2 {
     max-width: 300px;
 }
 
-.tableau {
+.a-bordered a-horizontal-stripes aplus-tech-spec-table {
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
     line-height: 20px;
@@ -253,6 +253,51 @@ h2 {
     box-sizing: border-box;
     word-break: initial;
     height: 170px;
+}
+
+.a-column a-span6 a-span-last{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 48.948%;
+    box-sizing: border-box;
+    min-height: 1px;
+    overflow: visible;
+    margin-right: 0;
+    float: right;
+}
+.a-column a-span6{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 48.948%;
+    box-sizing: border-box;
+    margin-right: 2%;
+    float: left;
+    min-height: 1px;
+    overflow: visible;
+}
+.a-row{
+        -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 
