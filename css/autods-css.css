@@ -271,6 +271,7 @@ h2 {
     margin-right: 0;
     float: right;
 }
+
 .a-column a-span6{
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
@@ -287,8 +288,9 @@ h2 {
     min-height: 1px;
     overflow: visible;
 }
+
 .a-row{
-        -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     font-size: 14px;
     line-height: 20px;
     color: #0F1111;
