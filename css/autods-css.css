@@ -234,7 +234,26 @@ h2 {
     width: 250px;
     max-width: 300px;
 }
+.tableau {
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    text-align: inherit;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0!important;
+    border: 1px solid #e7e7e7;
+    border-top-color: #eaeaea;
+    border-bottom: none;
+    border-spacing: 0;
+    box-sizing: border-box;
+    word-break: initial;
+    height: 170px;
 
+}
 
 
 
