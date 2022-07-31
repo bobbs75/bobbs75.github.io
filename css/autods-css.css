@@ -235,7 +235,7 @@ h2 {
     max-width: 300px;
 }
 
-.a-bordered a-horizontal-stripes aplus-tech-spec-table {
+.tableau {
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
     line-height: 20px;
@@ -253,7 +253,6 @@ h2 {
     box-sizing: border-box;
     word-break: initial;
     height: 170px;
-
 }
 
 
