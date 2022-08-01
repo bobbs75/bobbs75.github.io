@@ -1,0 +1,285 @@
+@font-face { 
+  font-family:'Amazon Ember';
+  font-weight:200;
+  src:url(./fonts/Dv1WQ5DdeMS5qP7.woff2) format("woff2"),url(./fonts/e0LnMbFWJC-TMQz.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-weight:200;
+  font-style:italic;
+  src:url(./fonts/ozb5-CLHQWI6Soc.woff2) format("woff2"),url(./fonts/twzZHebXjCHBb6v.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  src:url(./fonts/pDxWAF1pBB0dzGB.woff2) format("woff2"),url(./fonts/kfKKBuoqcD$AUKL.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-style:italic;
+  src:url(./fonts/WOnTLzkiaEccV7F.woff2) format("woff2"),url(./fonts/JJsp0ZvgpfwzJM6.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-weight:500;
+  src:url(./fonts/VjTR4RqBzY0mUYx.woff2) format("woff2"),url(./fonts/XIvhNCZAsrT80Wz.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-weight:500;
+  font-style:italic;
+  src:url(./fonts/KwhNPG8Jz-Vz2X7.woff2) format("woff2"),url(./fonts/YAEPfuhs1l-argd.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-weight:700;
+  src:url(./fonts/KFPk-9IF4FqAqY-.woff2) format("woff2"),url(./fonts/mzVbGSgvdBfRLX9.woff) format("woff");
+} 
+@font-face { 
+  font-family:'Amazon Ember';
+  font-style:italic;
+  font-weight:700;
+  src:url(./fonts/2SazJx$EeTHfhMN.woff2) format("woff2"),url(./fonts/CjbL$jCCegyfqZ7.woff) format("woff");
+} 
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.a-row { 
+    width: 100%;
+} 
+
+.a-expander-partial-collapse-container { 
+    overflow: hidden; 
+    position: relative;
+} 
+
+*  { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+} 
+
+.aplus-v2 .aplus-standard.aplus-module { 
+    min-width: 979px;
+} 
+
+.aplus-v2 .aplus-standard.aplus-module.module-3 { 
+    padding-bottom: 12px; 
+    margin-bottom: 12px;
+} 
+
+.aplus-v2 { 
+    display:  block; 
+    margin-left:  auto; 
+    margin-right:  auto; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    word-break: break-word;
+} 
+
+.a-spacing-large { 
+    margin-bottom: 24px!important;
+} 
+
+.a-section { 
+    margin-bottom: 22px;
+} 
+
+.a-section:last-child { 
+    margin-bottom: 0;
+} 
+
+.a-container { 
+    min-width: 998px; 
+    padding: 14px 18px 18px; 
+    margin: 0 auto;
+} 
+
+#dp .a-container { 
+    margin-top: 20px; 
+    padding-top: 0; 
+    min-width: 996px;
+} 
+
+#dp { 
+    margin: 0 auto; 
+    min-width: 1000px; 
+    max-width: 1500px; 
+    background-color: #fff;
+} 
+
+#a-page { 
+    min-width: 100% !important;
+} 
+
+body { 
+    font-size:     14px; 
+    line-height:     20px; 
+    font-family:     Arial,sans-serif;
+    min-height:    100%;
+    padding:   0; 
+    margin:  0 8px!important;
+    background:   #fff;
+    color:  #0F1111;
+} 
+
+.a-ember body { 
+    font-family: "Amazon Ember",Arial,sans-serif;
+} 
+
+html.a-js body { 
+    margin: 0!important;
+} 
+
+html { 
+    font-size: 100%; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+.a-expander-partial-collapse-content { 
+    overflow: hidden; 
+    position: relative;
+} 
+
+.aplus-module-wrapper  { 
+    text-align: inherit; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+.apm-fixed-width  { 
+    width: 969px;
+} 
+
+.apm-floatnone  { 
+    float: none;
+} 
+
+.apm-sidemodule  { 
+    text-align:  inherit;
+    margin:  0 auto; 
+    width:  970px; 
+    padding:  0; 
+    background-color:  #ffffff; 
+    position:  relative;
+} 
+
+.apm-sidemodule-imageright  { 
+    position: relative; 
+    float: right; 
+    display: block;
+} 
+
+.apm-sidemodule-textleft  { 
+    position: relative; 
+    display: table-cell; 
+    vertical-align: middle; 
+    height: 300px; 
+    max-height: 300px;
+} 
+
+img { 
+    max-width:  100%; 
+    border:  0;
+    vertical-align: top;
+} 
+
+.a-spacing-mini { 
+    margin-bottom: 4px!important;
+} 
+
+img  { 
+    vertical-align: top; 
+    max-width: 100%;
+} 
+
+.a-spacing-mini  { 
+    margin-bottom: 6px!important;
+} 
+
+.apm-spacing img  { 
+    border: none;
+} 
+
+h3 { 
+    padding:    0; 
+    margin:    0;
+    padding-bottom:   4px;
+    text-rendering:  optimizeLegibility;
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 24px;
+} 
+
+h3  { 
+    font-family:    inherit;
+    text-rendering:    optimizeLegibility; 
+    padding-bottom:    4px;
+    padding:  0; 
+    margin:  0;
+    font-weight: bold; 
+    font-size: 17px; 
+    line-height: 1.255;
+} 
+
+p { 
+    padding: 0; 
+    margin: 0 0 14px 0;
+} 
+
+p  { 
+    padding: 0; 
+    margin: 0 0 14px 0;
+} 
+
+p + p  { 
+    margin-top: -4px;
+} 
+
+.a-unordered-list,ul { 
+    margin:  0 0 0 18px; 
+    color:  #0F1111;
+    padding: 0;
+} 
+
+ul  { 
+    margin:  0 0 18px 18px;
+    padding: 0;
+} 
+
+.apm-spacing ul  { 
+    padding:  0 !important;
+    margin: 0 0 18px 18px !important;
+} 
+
+p:last-child { 
+    margin-bottom: 0;
+} 
+
+.a-unordered-list + p ,ul + p  { 
+    margin-top: -4px;
+} 
+
+.a-unordered-list li ,ul li  { 
+    list-style:  disc;
+    word-wrap: break-word; 
+    margin: 0;
+} 
+
+ul li  { 
+    list-style: disc;
+} 
+
+.apm-spacing ul li  { 
+    word-wrap:  break-word; 
+    margin:  0 !important;
+} 
+
+.a-unordered-list .a-list-item ,ul .a-list-item  { 
+    color: #0F1111;
+} 
+
+
