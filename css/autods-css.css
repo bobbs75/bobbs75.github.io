@@ -42,6 +42,324 @@
     100% {
         transform: translateX(0);
     }
+}.slider {
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    animation: glisse 20s infinite;
+}
+
+.slide {    
+    max-width: 500px;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-500px);
+    }
+
+    43% {
+        transform: translateX(-500px);
+    }
+
+    66% {
+        transform: translateX(-1000px);
+    }
+
+    76% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+#title{
+    justify-content: center;
+    font-size: clamp(1rem, 1rem + 10vw, 2rem);
+    max-width: 80vw;
+    flex-wrap: wrap;
+}
+body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/img/Smoke-BG.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img .col-icone {
+    margin: auto;
+    font-size: 60px;
+    color: aliceblue;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+p {
+    line-height: 35px;
+    color: aliceblue;
+    min-width: 300px;
+}
+
+.etages .etage .left .description {
+    line-height: 35px;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    background-color: black;
+    margin-bottom: 0px;
+    height: 86px;
+}
+
+nav .onglets {
+    margin-top: 35px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #ffbd4a;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #ffbd4a;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #ffbd4a;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    line-height: 1.1;
+}
+
+.etages {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.etages .titre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.etages .etage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+.etages .etage .right img {
+    max-width: 35vw;
+    min-width: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+
+.etages .etage .left {
+    max-width: 35vw;
+    color: #202020;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-right: 25px;
+    padding-top: 30px;
+}
+
+.etages .etage .left2 img {
+    max-width: 35vw;
+    min-width: 400px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    margin-right: 25px;
+}
+
+.etages .etage .right2 {
+    max-width: 35vw;
+    color: aliceblue;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+
+
+.bloc1 {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-bottom: 0px;
+    height: 500px;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px;
+
+}
+.bloc2 {
+    display:flex;
+    flex-direction: column;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-bottom: 0px;
+    height: 500px;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px;
+
+}
+.bloc3 {
+    display:flex;
+    flex-direction: column;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-bottom: 0px;
+    height: 500px;
+    width: 30%;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img .container {
+    max-width: 500px;
+    align-content: space-around;
+}
+
+.lastpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: clamp(1rem, 1rem + 10vw, 1rem);
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    align-items: center;
+    position: relative;
+    min-height: 1px;
+}
+.about {
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.about2 {
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    margin: auto;
+    width: 250px;
+    max-width: 300px;
+}
+
+.a-bordered a-horizontal-stripes aplus-tech-spec-table {
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    text-align: inherit;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0!important;
+    border: 1px solid #e7e7e7;
+    border-top-color: #eaeaea;
+    border-bottom: none;
+    border-spacing: 0;
+    box-sizing: border-box;
+    word-break: initial;
+    height: 170px;
+}
+
+.a-column a-span6 a-span-last{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 48.948%;
+    box-sizing: border-box;
+    min-height: 1px;
+    overflow: visible;
+    margin-right: 0;
+    float: right;
+}
+
+.a-column a-span6{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 48.948%;
+    box-sizing: border-box;
+    margin-right: 2%;
+    float: left;
+    min-height: 1px;
+    overflow: visible;
+}
+
+.a-row{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: inherit;
+    width: 100%;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
