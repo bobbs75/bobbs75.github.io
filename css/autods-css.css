@@ -261,7 +261,7 @@ h2 {
     padding-right: 50px;
 }
 
-.imgcontainer {
+img .imgcontainer {
     max-width: 800px;
     align-content: space-around;
 }
