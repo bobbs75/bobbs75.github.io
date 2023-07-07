@@ -166,6 +166,7 @@ h1 {
 h2 {
     margin-top: 0;
     margin-bottom: 5px;
+    text-align: center;
     color: #ffbd4a;
     letter-spacing: 0.3rem;
     text-transform: uppercase;
