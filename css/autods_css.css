@@ -288,14 +288,17 @@ h2 {
     min-height: 1px;
 }
 .about {
-    padding-right: 20px;
     padding-bottom: 30px;
+    margin: auto;
+    font-size: 60px;
+    color: aliceblue;
     display: flex;
 }
 
 .about2 {
     padding-right: 20px;
     padding-bottom: 30px;
+    display: flex;
 }
 
 .footer {
