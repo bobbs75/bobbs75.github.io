@@ -42,50 +42,6 @@
     100% {
         transform: translateX(0);
     }
-}.slider {
-    max-width: 500px;
-    overflow: hidden;
-}
-
-.slides {
-    display: flex;
-    max-width: 500px;
-    margin: 0 auto;
-    animation: glisse 20s infinite;
-}
-
-.slide {    
-    max-width: 500px;
-}
-
-@keyframes glisse {
-    0% {
-        transform: translateX(0);
-    }
-
-    10% {
-        transform: translateX(0);
-    }
-
-    33% {
-        transform: translateX(-500px);
-    }
-
-    43% {
-        transform: translateX(-500px);
-    }
-
-    66% {
-        transform: translateX(-1000px);
-    }
-
-    76% {
-        transform: translateX(-1000px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
