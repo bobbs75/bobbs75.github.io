@@ -14,6 +14,11 @@
     max-width: 500px;
 }
 
+.tableau {
+  display: flex;
+  justify-content: center;
+}
+
 @keyframes glisse {
     0% {
         transform: translateX(0);
