@@ -39,12 +39,12 @@
   word-wrap: break-word;
 }
 
-
 .a-size-base {
   -webkit-text-size-adjust: 100%;
   font-family: "Amazon Ember",Arial,sans-serif;
   border-collapse: collapse;
   border-spacing: 0;
+  background-color: #F0F2F2;
   box-sizing: border-box;
   vertical-align: top;
   font-size: 14px!important;
@@ -54,6 +54,7 @@
   color: #333;
   word-break: break-word;
 }
+
 @keyframes glisse {
     0% {
         transform: translateX(0);
@@ -99,7 +100,7 @@ color: #0F1111;
 font-family: "Amazon Ember",Arial,sans-serif;
 box-sizing: border-box;
 border-collapse: collapse;
-width: 100%;
+width: 70%;
 margin-bottom: 0!important;
 border-bottom: 1px solid #BBBFBF;
 table-layout: fixed;
