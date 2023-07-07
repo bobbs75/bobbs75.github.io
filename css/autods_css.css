@@ -290,6 +290,7 @@ h2 {
 .about {
     padding-right: 20px;
     padding-bottom: 30px;
+    display: flex;
 }
 
 .about2 {
