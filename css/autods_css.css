@@ -14,6 +14,21 @@
     max-width: 500px;
 }
 
+.etage .imagefull {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etage .imagefull .imgfull{
+    display: flex;
+    justify-content: center;
+}
+
+.etage .imagefull .imgfull img{
+    width: 100%;
+    overflow: hidden;
+}
+
 .tableau {
   display: flex;
   justify-content: center;
